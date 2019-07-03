@@ -1,0 +1,11 @@
+Data
+----
+
+In order to address the problem in hand we would need the following data;
+
+1. The neighbourhoods of Toronto, Canada. This can be extracted from wikipedia page https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
+
+2. Geospatial data for these neighbourhoods, in order to obtain the latitudes and longitudes. This is found in the below url
+https://cocl.us/Geospatial_data
+
+3. Foursquare data for exploring the neighbourhoods in terms of various pizza places, schools, offices and parks in various neighbourhoods of East York, Toronto. Neighbourhoods having more schools, offices and parks has been considered in this project as places which might fetch more business to a pizza place. Foursquare data for these places will be fetched by specifically passing the respective category ids.
